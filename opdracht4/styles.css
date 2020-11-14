@@ -1,0 +1,62 @@
+body {
+    color: dimgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+h1 + p {
+    color: darkcyan;
+font-family: fantasy;
+border-top-style: dotted; border-top-width: 20px; 
+border-right-style: dotted; border-right-width: 20px;
+border-left-style: groove; border-left-width: 15px;
+border-bottom-style: groove; border-bottom-width: 15px;
+border-radius: 10px;
+}
+
+
+h4 {
+color: yellow;
+text-decoration: underline;
+}
+
+ul.toplist {
+    font-size: 25px;
+    list-style: none;
+    display: inline;
+}
+ul.toplist a {
+    color: burlywood;
+    text-decoration: none;
+    
+}
+
+.indent {
+    text-indent: 20px;
+}
+
+#maintitle {
+    color: orangered;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+    font-size: 500%;
+    text-align: center; 
+    margin-top: 0px;
+}
+#menu {
+    font-size: 200%;
+    background-color: yellow;
+    word-spacing: 20px;
+    text-align: center; 
+}
+em {
+    color: lightcyan;
+}
+
+em.pink {
+    color: violet;
+}
+
+.list {
+    background-color: pink;
+}
