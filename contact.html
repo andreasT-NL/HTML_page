@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- hier zet je de code in de head tags -->
+    <title>Contact Form</title>
+</head>
+
+<body>
+    <header>
+        <h1>CONTACT</h1>
+        <nav class="menu">
+            <li> <a href="index.html">back to main page</a></li>
+        </nav>
+    </header>
+
+    <form name="contact expanded" method="POST" data-netlify="true">
+        <p><label> name: <input type="text" name="name" /></label></p>
+        <p> <label> email: <input type="email" name="email"></label></p>
+        <p> <label> phone: <input type="tel" name="tel"></label></p>
+        <p> <label> age: <input type="number" name="number"></label></p>
+        <p> <label> date of birth: <input type="date" name="birth"></label></p>
+        <p> <label> male: <input type="radio" name="sex" value="male"></label>
+            <label> female: <input type="radio" name="sex" value="female"></label></p>
+        <h3> <label>type of pictures:</label></h3>
+        <p> <input type="checkbox" name="type of pictures" value="portait"> portait</p>
+        <p> <input type="checkbox" name="type of pictures" value="pet"> pet</p>
+        <p> <input type="checkbox" name="type of pictures" value="landscape"> landscape</p>
+        <p> <input type="checkbox" name="type of pictures" value="object"> object</p>
+        <p> <label> color: <input type="color" name="color"></label></p>
+        <p><label> about me: <textarea name="textfield" id="" cols="30" rows="10"></textarea></label></p>
+        <p> <label> upload: <input type="file" name="upload file"></label></p>
+        <p> <label> website: <input type="url" name="url"></label></p>
+        <p> <button type="reset">reset</button>
+            <button type="submit">send</button></p>
+
+    </form>
+
+</body>
+
+</html>
